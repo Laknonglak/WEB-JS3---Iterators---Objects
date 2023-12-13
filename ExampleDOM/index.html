@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Bank User Interface</title> 
+</head>
+<body>
+    <div class="container">
+        <h2>Bank User Interface</h2>
+        <p>Account Number: <span id="accountNumber"></span></p>
+        <p>First Name: <span id="firstName"></span></p>
+        <p>Last Name: <span id="lastName"></span></p>
+        <p>Account Type: <span id="accountType"></span></p>
+        <p>Balance: <span id="balance">5000</span></p>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <button id="depositBtn">Deposit</button>
+        <button id="withdrawBtn">Withdraw</button>
+        <button id="nextCustomerBtn">Next Customer</button>
+
+        <ul id="transactions"></ul>
+    </div>
+
+    <script src="bankUser.js"></script>
+    <script src="bankUserDOM.js"></script>
+</body>
+</html>

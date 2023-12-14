@@ -5,6 +5,9 @@
     numbers.forEach((number,index) => {
         let doubledNumber = number * 2;
         console.log(`The numbex index ${index} = ${doubledNumber}`);
+        
     });
+    console.log(numbers);
+    console.log(doubledNumber);
 
     

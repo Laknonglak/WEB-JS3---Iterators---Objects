@@ -12,7 +12,7 @@
          let sum = numbers.reduce((accumulator, currentValue) => {
              console.log(`accumulator: ${accumulator}`);
              console.log(`currentValue: ${currentValue}`);
-             return accumulator + currentValue;
-         }, 0);
+             return (accumulator + currentValue);
+         }, 9);
 
          console.log(sum); // Output: 15

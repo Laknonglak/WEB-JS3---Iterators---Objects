@@ -54,7 +54,7 @@ const bankUsers = [
         //----------------------------forEach---------------------------------//
         user.getTransactions().forEach(transaction => {
             console.log(transaction);
-        });;
+        });
         
         //----------------------------map()----------------------------------//
             const feeRate = 0.05; // Assuming a fee rate of 5%
